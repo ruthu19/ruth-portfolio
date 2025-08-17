@@ -3,7 +3,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
 import { toast } from "sonner";
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -97,7 +97,7 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-white">Email</h4>
-                    <p className="text-muted-foreground">alex.morgan@example.com</p>
+                    <p className="text-muted-foreground">ruthuparinika8@gmail.com</p>
                   </div>
                 </div>
 
@@ -108,7 +108,7 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-white">Phone</h4>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+91 8105055869</p>
                   </div>
                 </div>
 
@@ -119,36 +119,12 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-white">Location</h4>
-                    <p className="text-muted-foreground">San Francisco, CA</p>
+                    <p className="text-muted-foreground">India, Bangalore</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Follow Me Section */}
-            <div>
-              <h3 className="text-xl font-bold text-white mb-6">Follow Me</h3>
-              <div className="flex space-x-4">
-                <a
-                  href="#"
-                  className="p-3 bg-brand-yellow/20 rounded-lg hover:bg-brand-yellow/30 transition-colors"
-                >
-                  <Github className="w-6 h-6 text-brand-yellow" />
-                </a>
-                <a
-                  href="#"
-                  className="p-3 bg-brand-yellow/20 rounded-lg hover:bg-brand-yellow/30 transition-colors"
-                >
-                  <Linkedin className="w-6 h-6 text-brand-yellow" />
-                </a>
-                <a
-                  href="#"
-                  className="p-3 bg-brand-yellow/20 rounded-lg hover:bg-brand-yellow/30 transition-colors"
-                >
-                  <Twitter className="w-6 h-6 text-brand-yellow" />
-                </a>
-              </div>
-            </div>
           </div>
 
           {/* Right Side - Contact Form */}
